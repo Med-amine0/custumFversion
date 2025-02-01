@@ -1,141 +1,141 @@
 [
     {
-        "name": "hinata_hyuuga",
-        "prompt": " hyuuga_hinata,naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
-        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+	        "name": "hinata_hyuuga",
+	        "prompt": " hyuuga_hinata,naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
+	        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
     },
     {
-        "name": "hyuuga_hanabi",
-        "prompt": " hyuuga_hanabi,naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
-        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+	        "name": "hyuuga_hanabi",
+	        "prompt": " hyuuga_hanabi,naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
+	        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
     },
-	{
+    {
 		"name": "naruko",
 		"prompt": "naruko_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
-	},
-    {
-        "name": "tsunade",
-        "prompt": " tsunade_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
-        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
     },
-	{
-		"name": "samui_(naruto)",
+    {
+	        "name": "tsunade",
+	        "prompt": " tsunade_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
+	        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+		"name": "samui",
 		"prompt": "samui_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
-	},
-	{
+    },
+    {
 		"name": "shizune",
 		"prompt": "shizune_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
-	},
-    {
-        "name": "sakura_haruno",
-        "prompt": " haruno_sakura,naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
-        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
     },
     {
-        "name": "temari",
-        "prompt": " temari_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
-        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+	        "name": "sakura_haruno",
+	        "prompt": " haruno_sakura,naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
+	        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
     },
     {
-        "name": "yamanaka_ino",
-        "prompt": " yamanaka_ino,naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
-        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+	        "name": "temari",
+	        "prompt": " temari_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
+	        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
     },
-	{
+    {
+	        "name": "yamanaka_ino",
+	        "prompt": " yamanaka_ino,naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
+	        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
 		"name": "uchiha_sarada",
 		"prompt": "uchiha_sarada,naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
-	},
-	{
+     },
+     {
 		"name": "akimichi_chouchou",
 		"prompt": "akimichi_chouchou,naruto_(series),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
-	},
-    {
-        "name": "bulma_(DBZ)",
-        "prompt": " bulma,dragon_ball_z,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
-        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
     },
     {
-        "name": "chi-chi_(DBZ)",
-        "prompt": " chi-chi_(dragon_ball),dragon_ball_z,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy,",
-        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+	        "name": "bulma",
+	        "prompt": " bulma,dragon_ball_z,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy ",
+	        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
     },
-	{
-		"name": "videl_(DBZ)",
+    {
+	        "name": "chi-chi_(DBZ)",
+	        "prompt": " chi-chi_(dragon_ball),dragon_ball_z,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy,",
+	        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+		"name": "videl",
 		"prompt": " videl,dragon_ball_z,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "android_18_(DBZ)",
+		"name": "android_18",
 		"prompt": " android_18,dragon_ball_z,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "cheelai_(DBZ)",
+		"name": "cheelai",
 		"prompt": " cheelai,dragon_ball,dragon_ball_super,dragon_ball_super_broly,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "pan_(DBZ)",
+		"name": "pan",
 		"prompt": " pan_(dragon_ball),dragon_ball_gt,giru_(dragon_ball),masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "vados_(DBZ)",
+		"name": "vados",
 		"prompt": " vados_(dragon_ball),dragon_ball,dragon_ball_super,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "uraraka_ochaco_(academia)",
+		"name": "uraraka_ochaco",
 		"prompt": " uraraka_ochaco,boku_no_hero_academia,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "ashido_mina_(academia)",
+		"name": "ashido_mina",
 		"prompt": " ashido_mina,boku_no_hero_academia,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "toga_himiko_(academia)",
+		"name": "toga_himiko",
 		"prompt": " toga_himiko,boku_no_hero_academia,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "bakugou_mitsuki_(academia)",
+		"name": "bakugou_mitsuki",
 		"prompt": " bakugou_mitsuki,boku_no_hero_academia,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "shihouin_yoruichi_(bleach)",
+		"name": "shihouin_yoruichi",
 		"prompt": " shihouin_yoruichi,bleach,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "matsumoto_rangiku_(bleach)",
+		"name": "matsumoto_rangiku",
 		"prompt": " matsumoto_rangiku,bleach,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "kuchiki_rukia_(bleach)",
+		"name": "kuchiki_rukia",
 		"prompt": " kuchiki_rukia,bleach,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "hikifune_kirio_(bleach)",
+		"name": "hikifune_kirio",
 		"prompt": " hikifune_kirio,bleach,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "unohana_retsu_(bleach)",
+		"name": "unohana_retsu",
 		"prompt": " unohana_retsu,bleach,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "kurotsuchi_nemu_(bleach)",
+		"name": "kurotsuchi_nemu",
 		"prompt": " kurotsuchi_nemu,bleach,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
@@ -180,52 +180,52 @@
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "nami_(one_piece)",
+		"name": "nami",
 		"prompt": "nami_(one_piece),one_piece,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "nico_robin_(one_piece)",
+		"name": "nico_robin",
 		"prompt": "nico_robin,one_piece,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "boa_hancock_(one_piece)",
+		"name": "boa_hancock",
 		"prompt": "boa_hancock,one_piece,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "kibutsuji_muzan_(demon slayer)",
+		"name": "kibutsuji_muzan",
 		"prompt": "kibutsuji_muzan_(female),kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "kanroji_mitsuri_(demon slayer)",
+		"name": "kanroji_mitsuri",
 		"prompt": "kanroji_mitsuri,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "kochou_shinobu_(demon slayer)",
+		"name": "kochou_shinobu",
 		"prompt": "kochou_shinobu,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "agatsuma_zenitsu_(demon slayer)",
+		"name": "agatsuma_zenitsu",
 		"prompt": "agatsuma_zenitsu,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, small_breasts, thick thighs, curvy,otoko_no_ko",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "kamado_tanjirou_(demon slayer)",
+		"name": "kamado_tanjirou",
 		"prompt": "kamado_tanjirou,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, small_breasts, thick thighs, curvy,otoko_no_ko",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "sanji_(one_piece)",
+		"name": "sanji",
 		"prompt": "sanji_(one_piece),one_piece,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, small_breasts, thick thighs, curvy,otoko_no_ko",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
 	{
-		"name": "roronoa_zoro_(one_piece)",
+		"name": "roronoa_zoro",
 		"prompt": "roronoa_zoro,one_piece,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, small_breasts, thick thighs, curvy,otoko_no_ko",
 		"negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
 	},
