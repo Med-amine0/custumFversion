@@ -60,7 +60,7 @@
 	        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
     },
     {
-	        "name": "chi-chi_(DBZ)",
+	        "name": "chi-chi",
 	        "prompt": " chi-chi_(dragon_ball),dragon_ball_z,masterpiece,(beautiful face:1.1), (anime style),eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy,",
 	        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
     },
