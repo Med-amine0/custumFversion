@@ -34,7 +34,7 @@
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
-    "default_prompt": "<lora:PulenKompot-Voluptuous:1>,<lora:Areolae-Size-slider:1>,(1futa:1.2),(nam:1.1),black lips, smug smile, big breasts, thick thighs, curvy, big penis, big testicals,looking at viewer, (see-through robe)",
+    "default_prompt": "<lora:PulenKompot-Voluptuous:1>,<lora:Areolae-Size-slider:1>,futanari,(nam:1.1),black lips, smug smile, big breasts, thick thighs, curvy, big penis, big testicals,looking at viewer, (see-through robe)",
     "default_prompt_negative": "3d, (incorrect anatomy), (bad anatomy), (bad lips), (deformed face feachers), (incorrect digits),(two bodies:1.1)warped anatomy, deformed anatomy, weird anatomy, bad quality ,worst quality, worst detail, soft rendering, sketch, censor, simple background",
     "default_styles": [],
     "default_aspect_ratio": "1024*1024",
