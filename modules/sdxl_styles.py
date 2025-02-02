@@ -20,7 +20,6 @@ def normalize_key(k):
     k = k.replace('(s', '(S')  # Ensure consistency
     return k
 
-
 styles = {}
 
 # Automatically load all JSON files in the styles folder
@@ -32,8 +31,8 @@ for styles_file in styles_files:
         with open(os.path.join(styles_path, styles_file), encoding='utf-8') as f:
             for entry in json.load(f):
                 name = normalize_key(entry['name'])
-                prompt = entry['prompt'] if 'prompt' in entry else ''
-                negative_prompt = entry['negative_prompt'] if 'negative_prompt' in entry else ''
+                prompt = entry.get('prompt', '')
+                negative_prompt = entry.get('negative_prompt', '')
                 styles[name] = (prompt, negative_prompt)
     except Exception as e:
         print(str(e))
@@ -51,9 +50,18 @@ legal_style_names = [fooocus_expansion, random_style_name] + style_keys
 def get_random_style(rng: Random) -> str:
     return rng.choice(style_keys)
 
-def apply_style(style, positive):
-    p, n = styles[style]
-    return p.replace('{prompt}', positive).splitlines(), n.splitlines(), '{prompt}' in p
+def inject_styles(positive):
+    """Injects styles into the user's prompt by replacing placeholders with corresponding style prompts."""
+    
+    for style_name in styles:  # Loop through all available styles
+        placeholder = f"{{{style_name}}}"
+        
+        if placeholder in positive:  # Check if the placeholder exists in the prompt
+            style_prompt, _ = styles[style_name]  # Get the positive prompt for the style
+            positive = positive.replace(placeholder, style_prompt)
+            print(f"[Style Applied] Replaced '{placeholder}' with: {style_prompt}")
+
+    return positive.splitlines()
 
 def get_words(arrays, total_mult, index):
     if len(arrays) == 1:
