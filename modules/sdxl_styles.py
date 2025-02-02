@@ -2,9 +2,7 @@ import os
 import re
 import json
 import math
-
 from modules.extra_utils import get_files_from_folder
-from random import Random
 
 # Cannot use modules.config - validators causing circular imports
 styles_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../sdxl_styles/'))
@@ -19,7 +17,6 @@ def normalize_key(k):
     k = k.replace('Mre', 'MRE')  # Fix "Mre" → "MRE"
     k = k.replace('(s', '(S')  # Ensure consistency
     return k
-
 
 styles = {}
 
@@ -39,21 +36,14 @@ for styles_file in styles_files:
         print(str(e))
         print(f'Failed to load style file {styles_file}')
 
-style_keys = list(styles.keys())
-
-# Restored the placeholders for compatibility
-fooocus_expansion = "Fooocus V2"
-random_style_name = "Random Style"
-
-# Now, the legal styles are just those dynamically loaded from the JSON files
-legal_style_names = [fooocus_expansion, random_style_name] + style_keys
-
-def get_random_style(rng: Random) -> str:
-    return rng.choice(style_keys)
-
 def apply_style(style, positive):
     p, n = styles[style]
-    return p.replace('{prompt}', positive).splitlines(), n.splitlines(), '{prompt}' in p
+    result = positive
+    placeholder = f"{{{style}}}"
+    if placeholder in result:
+        result = result.replace(placeholder, p)
+        print(f"[Style Applied] Replaced '{placeholder}' with: {p}")
+    return result.splitlines(), n.splitlines(), '{prompt}' in p
 
 def get_words(arrays, total_mult, index):
     if len(arrays) == 1:
@@ -70,7 +60,7 @@ def apply_arrays(text, index):
     arrays = re.findall(r'\[\[(.*?)\]\]', text)
     if len(arrays) == 0:
         return text
-
+    
     print(f'[Arrays] processing: {text}')
     mult = 1
     for arr in arrays:
@@ -83,6 +73,6 @@ def apply_arrays(text, index):
     i = 0
     for arr in arrays:
         text = text.replace(f'[[{arr}]]', chosen_words[i], 1)   
-        i = i+1
+        i = i + 1
     
     return text
