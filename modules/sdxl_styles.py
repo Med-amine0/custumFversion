@@ -3,6 +3,7 @@ import re
 import json
 import math
 from modules.extra_utils import get_files_from_folder
+from random import Random
 
 # Cannot use modules.config - validators causing circular imports
 styles_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../sdxl_styles/'))
@@ -35,6 +36,18 @@ for styles_file in styles_files:
     except Exception as e:
         print(str(e))
         print(f'Failed to load style file {styles_file}')
+
+style_keys = list(styles.keys())
+
+# Restored the placeholders for compatibility
+fooocus_expansion = "Fooocus V2"
+random_style_name = "Random Style"
+
+# Now, the legal styles are just those dynamically loaded from the JSON files
+legal_style_names = [fooocus_expansion, random_style_name] + style_keys
+
+def get_random_style(rng: Random) -> str:
+    return rng.choice(style_keys)
 
 def apply_style(style, positive):
     p, n = styles[style]
