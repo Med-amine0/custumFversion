@@ -50,7 +50,7 @@ legal_style_names = [fooocus_expansion, random_style_name] + style_keys
 def get_random_style(rng: Random) -> str:
     return rng.choice(style_keys)
 
-def inject_styles(positive):
+def apply_style(positive):
     """Injects styles into the user's prompt by replacing placeholders with corresponding style prompts."""
     
     for style_name in styles:  # Loop through all available styles
