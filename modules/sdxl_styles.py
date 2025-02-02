@@ -2,6 +2,7 @@ import os
 import re
 import json
 import math
+
 from modules.extra_utils import get_files_from_folder
 from random import Random
 
@@ -18,6 +19,7 @@ def normalize_key(k):
     k = k.replace('Mre', 'MRE')  # Fix "Mre" → "MRE"
     k = k.replace('(s', '(S')  # Ensure consistency
     return k
+
 
 styles = {}
 
@@ -51,12 +53,7 @@ def get_random_style(rng: Random) -> str:
 
 def apply_style(style, positive):
     p, n = styles[style]
-    result = positive
-    placeholder = f"{{{style}}}"
-    if placeholder in result:
-        result = result.replace(placeholder, p)
-        print(f"[Style Applied] Replaced '{placeholder}' with: {p}")
-    return result.splitlines(), n.splitlines(), '{prompt}' in p
+    return p.replace('{prompt}', positive).splitlines(), n.splitlines(), '{prompt}' in p
 
 def get_words(arrays, total_mult, index):
     if len(arrays) == 1:
@@ -73,7 +70,7 @@ def apply_arrays(text, index):
     arrays = re.findall(r'\[\[(.*?)\]\]', text)
     if len(arrays) == 0:
         return text
-    
+
     print(f'[Arrays] processing: {text}')
     mult = 1
     for arr in arrays:
@@ -86,6 +83,6 @@ def apply_arrays(text, index):
     i = 0
     for arr in arrays:
         text = text.replace(f'[[{arr}]]', chosen_words[i], 1)   
-        i = i + 1
+        i = i+1
     
     return text
