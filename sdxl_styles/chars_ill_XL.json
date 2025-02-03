@@ -46,7 +46,12 @@
     },
     {
 		"name": "uchiha_sarada",
-		"prompt": "uchiha_sarada,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
+		"prompt": "uchiha_sarada,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, thick thighs, curvy, {prompt}",
+		"negative_prompt": ""
+     },
+     {
+		"name": "nagatoro_hayase ",
+		"prompt": " ijiranaide_nagatoro-san nagatoro_hayase,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, thick thighs, curvy, {prompt}",
 		"negative_prompt": ""
      },
      {
@@ -250,4 +255,4 @@
 		"negative_prompt": ""
 	}
 		
-	]
+	]	
