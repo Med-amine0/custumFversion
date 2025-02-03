@@ -215,6 +215,26 @@
 		"negative_prompt": ""
 	},
 	{
+		"name": "gwen_tennyson",
+		"prompt": "ben_10,gwen_tennyson,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
+		"negative_prompt": ""
+	},
+	{
+		"name": "bubblegum",
+		"prompt": "princess_bonnibel_bubblegum,adventure_time,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
+		"negative_prompt": ""
+	},
+	{
+		"name": "marceline_abadeer",
+		"prompt": "marceline_abadeer,adventure_time,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
+		"negative_prompt": ""
+	},
+	{
+		"name": "fiona",
+		"prompt": "fionna_campbell,adventure_time,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
+		"negative_prompt": ""
+	},
+	{
 		"name": "agatsuma_zenitsu",
 		"prompt": "agatsuma_zenitsu,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts, thick thighs, curvy,otoko_no_ko, {prompt}",
 		"negative_prompt": ""
