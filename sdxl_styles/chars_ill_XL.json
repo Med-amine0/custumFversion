@@ -243,6 +243,11 @@
 		"name": "uzumaki_boruto",
 		"prompt": "uzumaki_boruto,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts , thick thighs, curvy,otoko_no_ko, {prompt}",
 		"negative_prompt": ""
+	},
+	{
+		"name": "link",
+		"prompt": "link,the_legend_of_zelda,the_legend_of_zelda:_breath_of_the_wild,link,gerudo_set_(zelda),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts , thick thighs, curvy,otoko_no_ko, {prompt}",
+		"negative_prompt": ""
 	}
 		
 	]
