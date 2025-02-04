@@ -183,23 +183,24 @@ def clip_encode_single(clip, text, verbose=False):
         return result
     
     # Encode each text segment
-    all_encoded = []
-    pooled_sum = 0
+    all_encoded_conds = []
+    pooled_output = 0.0  # Use float to match expected type
     
     for seg_text in texts_to_encode:
         if seg_text.strip():
             tokens = clip.tokenize(seg_text.strip())
-            encoded = clip.encode_from_tokens(tokens, return_pooled=True)
-            all_encoded.append(encoded[0])
-            pooled_sum += encoded[1]
+            cond, pooled = clip.encode_from_tokens(tokens, return_pooled=True)
+            all_encoded_conds.append(cond)
+            pooled_output += pooled
     
     # Combine encoded segments
-    if len(all_encoded) > 1:
-        combined_cond = torch.cat(all_encoded, dim=1)
+    if len(all_encoded_conds) > 1:
+        combined_cond = torch.cat(all_encoded_conds, dim=1)
     else:
-        combined_cond = all_encoded[0]
+        combined_cond = all_encoded_conds[0]
     
-    result = (combined_cond, {"pooled_output": pooled_sum})
+    # Construct result in the exact format expected
+    result = (combined_cond, pooled_output)
     
     # Cache the result
     clip.fcs_cond_cache[text] = result
