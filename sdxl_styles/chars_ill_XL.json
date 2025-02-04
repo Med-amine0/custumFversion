@@ -1,278 +1,283 @@
 [
     {
+	        "name": "thickness",
+	        "prompt": "{prompt}, thick thighs, curvy, <lora:PulenKompot-Voluptuous:1>, <lora:Areolae-Size-slider:1>",
+	        "negative_prompt": ""
+    },
+    {
 	        "name": "hinata_hyuuga",
-	        "prompt": " hyuuga_hinata,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt} ",
+	        "prompt": " hyuuga_hinata,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt} ",
 	        "negative_prompt": ""
     },
     {
 	        "name": "hyuuga_hanabi",
-	        "prompt": " hyuuga_hanabi,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt} ",
+	        "prompt": " hyuuga_hanabi,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt} ",
 	        "negative_prompt": ""
     },
     {
-		"name": "naruko",
-		"prompt": "naruko_(naruto),naruto_(series),genderswap_(mtf),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "naruko",
+			"prompt": "naruko_(naruto),naruto_(series),genderswap_(mtf),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
     },
     {
 	        "name": "tsunade",
-	        "prompt": " tsunade_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt} ",
+	        "prompt": " tsunade_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt} ",
 	        "negative_prompt": ""
     },
     {
-		"name": "samui",
-		"prompt": "samui_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "samui",
+			"prompt": "samui_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
     },
     {
-		"name": "shizune",
-		"prompt": "shizune_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "shizune",
+			"prompt": "shizune_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
     },
     {
 	        "name": "sakura_haruno",
-	        "prompt": " haruno_sakura,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt} ",
+	        "prompt": " haruno_sakura,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt} ",
 	        "negative_prompt": ""
     },
     {
 	        "name": "temari",
-	        "prompt": " temari_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt} ",
+	        "prompt": " temari_(naruto),naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt} ",
 	        "negative_prompt": ""
     },
     {
 	        "name": "yamanaka_ino",
-	        "prompt": " yamanaka_ino,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt} ",
+	        "prompt": " yamanaka_ino,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt} ",
 	        "negative_prompt": ""
     },
     {
-		"name": "uchiha_sarada",
-		"prompt": "uchiha_sarada,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "uchiha_sarada",
+			"prompt": "uchiha_sarada,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, thick thighs, curvy, {prompt}",
+			"negative_prompt": ""
      },
      {
-		"name": "nagatoro_hayase ",
-		"prompt": " ijiranaide_nagatoro-san nagatoro_hayase,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "nagatoro_hayase ",
+			"prompt": " ijiranaide_nagatoro-san nagatoro_hayase,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, thick thighs, curvy, {prompt}",
+			"negative_prompt": ""
      },
      {
-		"name": "akimichi_chouchou",
-		"prompt": "akimichi_chouchou,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "akimichi_chouchou",
+			"prompt": "akimichi_chouchou,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
     },
     {
 	        "name": "bulma",
-	        "prompt": " bulma,dragon_ball_z,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt} ",
+	        "prompt": " bulma,dragon_ball_z,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt} ",
 	        "negative_prompt": ""
     },
     {
 	        "name": "chi-chi",
-	        "prompt": " chi-chi_(dragon_ball),dragon_ball_z,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt},",
+	        "prompt": " chi-chi_(dragon_ball),dragon_ball_z,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt},",
 	        "negative_prompt": ""
     },
     {
-		"name": "videl",
-		"prompt": " videl,dragon_ball_z,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "videl",
+			"prompt": " videl,dragon_ball_z,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "android_18",
-		"prompt": " android_18,dragon_ball_z,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "android_18",
+			"prompt": " android_18,dragon_ball_z,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "cheelai",
-		"prompt": " cheelai,dragon_ball,dragon_ball_super,dragon_ball_super_broly,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "cheelai",
+			"prompt": " cheelai,dragon_ball,dragon_ball_super,dragon_ball_super_broly,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "pan",
-		"prompt": " pan_(dragon_ball),dragon_ball_gt,giru_(dragon_ball),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "pan",
+			"prompt": " pan_(dragon_ball),dragon_ball_gt,giru_(dragon_ball),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "vados",
-		"prompt": " vados_(dragon_ball),dragon_ball,dragon_ball_super,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "vados",
+			"prompt": " vados_(dragon_ball),dragon_ball,dragon_ball_super,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "uraraka_ochaco",
-		"prompt": " uraraka_ochaco,boku_no_hero_academia,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "uraraka_ochaco",
+			"prompt": " uraraka_ochaco,boku_no_hero_academia,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "ashido_mina",
-		"prompt": " ashido_mina,boku_no_hero_academia,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "ashido_mina",
+			"prompt": " ashido_mina,boku_no_hero_academia,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "toga_himiko",
-		"prompt": " toga_himiko,boku_no_hero_academia,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "toga_himiko",
+			"prompt": " toga_himiko,boku_no_hero_academia,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "bakugou_mitsuki",
-		"prompt": " bakugou_mitsuki,boku_no_hero_academia,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "bakugou_mitsuki",
+			"prompt": " bakugou_mitsuki,boku_no_hero_academia,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "shihouin_yoruichi",
-		"prompt": " shihouin_yoruichi,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "shihouin_yoruichi",
+			"prompt": " shihouin_yoruichi,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "matsumoto_rangiku",
-		"prompt": " matsumoto_rangiku,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "matsumoto_rangiku",
+			"prompt": " matsumoto_rangiku,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "kuchiki_rukia",
-		"prompt": " kuchiki_rukia,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "kuchiki_rukia",
+			"prompt": " kuchiki_rukia,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "hikifune_kirio",
-		"prompt": " hikifune_kirio,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "hikifune_kirio",
+			"prompt": " hikifune_kirio,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "unohana_retsu",
-		"prompt": " unohana_retsu,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "unohana_retsu",
+			"prompt": " unohana_retsu,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "kurotsuchi_nemu",
-		"prompt": " kurotsuchi_nemu,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "kurotsuchi_nemu",
+			"prompt": " kurotsuchi_nemu,bleach,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "princess_zelda",
-		"prompt": " princess_zelda,the_legend_of_zelda,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "princess_zelda",
+			"prompt": " princess_zelda,the_legend_of_zelda,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "chel",
-		"prompt": " chel,the_road_to_el_dorado,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "chel",
+			"prompt": " chel,the_road_to_el_dorado,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "korra",
-		"prompt": " korra,avatar_legends,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "korra",
+			"prompt": " korra,avatar_legends,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "asami_sato",
-		"prompt": " asami_sato,avatar_legends,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "asami_sato",
+			"prompt": " asami_sato,avatar_legends,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "azula",
-		"prompt": "azula,avatar_legends,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "azula",
+			"prompt": "azula,avatar_legends,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "shego",
-		"prompt": "(1futa:1.2),shego,kim_possible_(series),masterpiece,(beautiful face:1.1), eyeliner,full lips,big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "shego",
+			"prompt": "(1futa:1.2),shego,kim_possible_(series),masterpiece,(beautiful face:1.1), eyeliner,full lips,big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "raven",
-		"prompt": "raven_(dc),dc_comics,teen_titans,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "raven",
+			"prompt": "raven_(dc),dc_comics,teen_titans,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "maddie_fenton",
-		"prompt": "maddie_fenton,danny_phantom_(character),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "maddie_fenton",
+			"prompt": "maddie_fenton,danny_phantom_(character),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "nami",
-		"prompt": "nami_(one_piece),one_piece,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "nami",
+			"prompt": "nami_(one_piece),one_piece,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "nico_robin",
-		"prompt": "nico_robin,one_piece,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "nico_robin",
+			"prompt": "nico_robin,one_piece,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "boa_hancock",
-		"prompt": "boa_hancock,one_piece,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "boa_hancock",
+			"prompt": "boa_hancock,one_piece,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "kibutsuji_muzan",
-		"prompt": "kibutsuji_muzan_(female),kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "kibutsuji_muzan",
+			"prompt": "kibutsuji_muzan_(female),kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "kanroji_mitsuri",
-		"prompt": "kanroji_mitsuri,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "kanroji_mitsuri",
+			"prompt": "kanroji_mitsuri,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "kochou_shinobu",
-		"prompt": "kochou_shinobu,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "kochou_shinobu",
+			"prompt": "kochou_shinobu,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "gwen_tennyson",
-		"prompt": "ben_10,gwen_tennyson,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "gwen_tennyson",
+			"prompt": "ben_10,gwen_tennyson,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "bubblegum",
-		"prompt": "princess_bonnibel_bubblegum,adventure_time,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "bubblegum",
+			"prompt": "princess_bonnibel_bubblegum,adventure_time,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "marceline_abadeer",
-		"prompt": "marceline_abadeer,adventure_time,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "marceline_abadeer",
+			"prompt": "marceline_abadeer,adventure_time,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "fiona",
-		"prompt": "fionna_campbell,adventure_time,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, thick thighs, curvy, {prompt}",
-		"negative_prompt": ""
+			"name": "fiona",
+			"prompt": "fionna_campbell,adventure_time,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "agatsuma_zenitsu",
-		"prompt": "agatsuma_zenitsu,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts, thick thighs, curvy,otoko_no_ko, {prompt}",
-		"negative_prompt": ""
+			"name": "agatsuma_zenitsu",
+			"prompt": "agatsuma_zenitsu,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts, otoko_no_ko, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "kamado_tanjirou",
-		"prompt": "kamado_tanjirou,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts, thick thighs, curvy,otoko_no_ko, {prompt}",
-		"negative_prompt": ""
+			"name": "kamado_tanjirou",
+			"prompt": "kamado_tanjirou,kimetsu_no_yaiba,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts, otoko_no_ko, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "sanji",
-		"prompt": "sanji_(one_piece),one_piece,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts, thick thighs, curvy,otoko_no_ko, {prompt}",
-		"negative_prompt": ""
+			"name": "sanji",
+			"prompt": "sanji_(one_piece),one_piece,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts, otoko_no_ko, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "roronoa_zoro",
-		"prompt": "roronoa_zoro,one_piece,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts, thick thighs, curvy,otoko_no_ko, {prompt}",
-		"negative_prompt": ""
+			"name": "roronoa_zoro",
+			"prompt": "roronoa_zoro,one_piece,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts, otoko_no_ko, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "uzumaki_naruto",
-		"prompt": "uzumaki_naruto,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts ,thick thighs, curvy,otoko_no_ko, {prompt}",
-		"negative_prompt": ""
+			"name": "uzumaki_naruto",
+			"prompt": "uzumaki_naruto,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts ,otoko_no_ko, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "uchiha_sasuke",
-		"prompt": "uchiha_sasuke,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts , thick thighs, curvy,otoko_no_ko, {prompt}",
-		"negative_prompt": ""
+			"name": "uchiha_sasuke",
+			"prompt": "uchiha_sasuke,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts , otoko_no_ko, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "uzumaki_boruto",
-		"prompt": "uzumaki_boruto,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts , thick thighs, curvy,otoko_no_ko, {prompt}",
-		"negative_prompt": ""
+			"name": "uzumaki_boruto",
+			"prompt": "uzumaki_boruto,naruto_(series),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts , otoko_no_ko, {prompt}",
+			"negative_prompt": ""
 	},
 	{
-		"name": "link",
-		"prompt": "link,the_legend_of_zelda,the_legend_of_zelda:_breath_of_the_wild,link,gerudo_set_(zelda),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts , thick thighs, curvy,otoko_no_ko, {prompt}",
-		"negative_prompt": ""
+			"name": "link",
+			"prompt": "link,the_legend_of_zelda,the_legend_of_zelda:_breath_of_the_wild,link,gerudo_set_(zelda),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, small_breasts , otoko_no_ko, {prompt}",
+			"negative_prompt": ""
 	}
 		
 	]	
