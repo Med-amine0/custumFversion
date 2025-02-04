@@ -151,64 +151,84 @@ def clip_encode_single(clip, text, verbose=False):
             print(f'[CLIP Cached] {text}')
         return cached
     
-    def extract_bracketed_text(text):
+    def extract_segments(text):
         """
-        Extract texts within square brackets.
-        
-        Returns:
-        - List of bracketed texts
-        - Remaining text outside brackets
+        Extract text segments enclosed in square brackets.
         """
         import re
-        
         # Find all texts within square brackets
-        bracketed = re.findall(r'\[(.*?)\]', text)
+        segments = re.findall(r'\[(.*?)\]', text)
         
         # Remove bracketed texts from original text
         remaining = re.sub(r'\[.*?\]', '', text).strip()
         
-        return bracketed, remaining
+        # Combine segments with remaining text
+        all_texts = segments + ([remaining] if remaining else [])
+        return all_texts
+
+    # Extract segments
+    segments = extract_segments(text)
     
-    # Extract bracketed texts
-    bracketed_texts, remaining_text = extract_bracketed_text(text)
-    
-    # Prepare the full text list
-    texts_to_encode = bracketed_texts + ([remaining_text] if remaining_text else [])
-    
-    # If no texts to encode, fallback to original
-    if not texts_to_encode:
+    # Ensure at least one text segment exists
+    if not segments:
         tokens = clip.tokenize(text)
         result = clip.encode_from_tokens(tokens, return_pooled=True)
         clip.fcs_cond_cache[text] = result
         return result
     
-    # Encode each text segment
-    all_encoded_conds = []
-    pooled_output = 0.0  # Use float to match expected type
+    # Encode first segment with pooled output
+    first_seg = segments[0].strip()
+    tokens = clip.tokenize(first_seg)
+    cond, pooled = clip.encode_from_tokens(tokens, return_pooled=True)
     
-    for seg_text in texts_to_encode:
-        if seg_text.strip():
-            tokens = clip.tokenize(seg_text.strip())
-            cond, pooled = clip.encode_from_tokens(tokens, return_pooled=True)
-            all_encoded_conds.append(cond)
-            pooled_output += pooled
-    
-    # Combine encoded segments
-    if len(all_encoded_conds) > 1:
-        combined_cond = torch.cat(all_encoded_conds, dim=1)
-    else:
-        combined_cond = all_encoded_conds[0]
-    
-    # Construct result in the exact format expected
-    result = (combined_cond, pooled_output)
-    
-    # Cache the result
+    # Cache and return the first segment's encoding
+    result = (cond, pooled)
     clip.fcs_cond_cache[text] = result
     
     if verbose:
         print(f'[CLIP Encoded] {text}')
+        print(f'Segments: {segments}')
     
     return result
+
+@torch.no_grad()
+@torch.inference_mode()
+def clip_encode(texts, pool_top_k=1):
+    global final_clip
+
+    if final_clip is None:
+        return None
+    if not isinstance(texts, list):
+        return None
+    if len(texts) == 0:
+        return None
+
+    # Will store all encodings
+    all_encodings = []
+
+    for text in texts:
+        # Extract and encode segments
+        def extract_segments(text):
+            import re
+            return re.findall(r'\[(.*?)\]', text)
+
+        segments = extract_segments(text)
+        
+        # If no segments, use original text
+        if not segments:
+            segments = [text]
+        
+        # Encode each segment
+        text_encodings = []
+        for seg in segments:
+            cond, pooled = clip_encode_single(final_clip, seg.strip())
+            text_encodings.append((cond, pooled))
+        
+        # Select encoding based on pool_top_k (defaults to first segment)
+        selected_encoding = text_encodings[0]
+        all_encodings.append(selected_encoding)
+    
+    return all_encodings
 
 
 @torch.no_grad()
