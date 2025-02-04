@@ -197,8 +197,22 @@ def clip_encode_single(clip, text, verbose=False):
     
     # Combine tokens
     if len(all_tokens) > 1:
-        # Concatenate tokens, potentially adding a separator
-        tokens = torch.cat(all_tokens, dim=1)
+        # Find the maximum sequence length
+        max_length = max(tokens.shape[1] for tokens in all_tokens)
+        
+        # Pad tokens to the same length
+        padded_tokens = []
+        for tokens in all_tokens:
+            if tokens.shape[1] < max_length:
+                # Pad with zeros
+                pad_amount = max_length - tokens.shape[1]
+                padded = torch.nn.functional.pad(tokens, (0, pad_amount), value=0)
+                padded_tokens.append(padded)
+            else:
+                padded_tokens.append(tokens)
+        
+        # Concatenate padded tokens
+        tokens = torch.cat(padded_tokens, dim=1)
     elif len(all_tokens) == 1:
         tokens = all_tokens[0]
     else:
