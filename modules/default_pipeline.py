@@ -150,11 +150,70 @@ def clip_encode_single(clip, text, verbose=False):
         if verbose:
             print(f'[CLIP Cached] {text}')
         return cached
-    tokens = clip.tokenize(text)
+    
+    def extract_segments(text):
+        """
+        Extract segments enclosed in square brackets and regular text.
+        """
+        segments = []
+        current_segment = []
+        in_brackets = False
+        
+        for char in text:
+            if char == '[' and not in_brackets:
+                # If we had a previous non-bracket segment, add it
+                if current_segment:
+                    segments.append(''.join(current_segment))
+                    current_segment = []
+                in_brackets = True
+                current_segment.append(char)
+            elif char == ']' and in_brackets:
+                current_segment.append(char)
+                segments.append(''.join(current_segment))
+                current_segment = []
+                in_brackets = False
+            else:
+                current_segment.append(char)
+        
+        # Add any remaining segment
+        if current_segment:
+            segments.append(''.join(current_segment))
+        
+        return segments
+    
+    # Extract segments
+    segments = extract_segments(text)
+    
+    # Tokenize each segment
+    all_tokens = []
+    for segment in segments:
+        # Remove brackets if present
+        clean_segment = segment.strip('[]').strip()
+        
+        # Tokenize the cleaned segment
+        if clean_segment:
+            segment_tokens = clip.tokenize(clean_segment)
+            all_tokens.append(segment_tokens)
+    
+    # Combine tokens
+    if len(all_tokens) > 1:
+        # Concatenate tokens, potentially adding a separator
+        tokens = torch.cat(all_tokens, dim=1)
+    elif len(all_tokens) == 1:
+        tokens = all_tokens[0]
+    else:
+        # Fallback to original tokenization if no segments found
+        tokens = clip.tokenize(text)
+    
+    # Encode tokens
     result = clip.encode_from_tokens(tokens, return_pooled=True)
+    
+    # Cache the result
     clip.fcs_cond_cache[text] = result
+    
     if verbose:
         print(f'[CLIP Encoded] {text}')
+    
     return result
 
 
