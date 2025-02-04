@@ -151,76 +151,55 @@ def clip_encode_single(clip, text, verbose=False):
             print(f'[CLIP Cached] {text}')
         return cached
     
-    def extract_segments(text):
+    def extract_bracketed_text(text):
         """
-        Extract segments enclosed in square brackets and regular text.
+        Extract texts within square brackets.
+        
+        Returns:
+        - List of bracketed texts
+        - Remaining text outside brackets
         """
-        segments = []
-        current_segment = []
-        in_brackets = False
+        import re
         
-        for char in text:
-            if char == '[' and not in_brackets:
-                # If we had a previous non-bracket segment, add it
-                if current_segment:
-                    segments.append(''.join(current_segment))
-                    current_segment = []
-                in_brackets = True
-                current_segment.append(char)
-            elif char == ']' and in_brackets:
-                current_segment.append(char)
-                segments.append(''.join(current_segment))
-                current_segment = []
-                in_brackets = False
-            else:
-                current_segment.append(char)
+        # Find all texts within square brackets
+        bracketed = re.findall(r'\[(.*?)\]', text)
         
-        # Add any remaining segment
-        if current_segment:
-            segments.append(''.join(current_segment))
+        # Remove bracketed texts from original text
+        remaining = re.sub(r'\[.*?\]', '', text).strip()
         
-        return segments
+        return bracketed, remaining
     
-    # Extract segments
-    segments = extract_segments(text)
+    # Extract bracketed texts
+    bracketed_texts, remaining_text = extract_bracketed_text(text)
     
-    # Tokenize each segment
-    all_tokens = []
-    for segment in segments:
-        # Remove brackets if present
-        clean_segment = segment.strip('[]').strip()
-        
-        # Tokenize the cleaned segment
-        if clean_segment:
-            segment_tokens = clip.tokenize(clean_segment)
-            all_tokens.append(segment_tokens)
+    # Prepare the full text list
+    texts_to_encode = bracketed_texts + ([remaining_text] if remaining_text else [])
     
-    # Combine tokens
-    if len(all_tokens) > 1:
-        # Find the maximum sequence length
-        max_length = max(tokens.shape[1] for tokens in all_tokens)
-        
-        # Pad tokens to the same length
-        padded_tokens = []
-        for tokens in all_tokens:
-            if tokens.shape[1] < max_length:
-                # Pad with zeros
-                pad_amount = max_length - tokens.shape[1]
-                padded = torch.nn.functional.pad(tokens, (0, pad_amount), value=0)
-                padded_tokens.append(padded)
-            else:
-                padded_tokens.append(tokens)
-        
-        # Concatenate padded tokens
-        tokens = torch.cat(padded_tokens, dim=1)
-    elif len(all_tokens) == 1:
-        tokens = all_tokens[0]
-    else:
-        # Fallback to original tokenization if no segments found
+    # If no texts to encode, fallback to original
+    if not texts_to_encode:
         tokens = clip.tokenize(text)
+        result = clip.encode_from_tokens(tokens, return_pooled=True)
+        clip.fcs_cond_cache[text] = result
+        return result
     
-    # Encode tokens
-    result = clip.encode_from_tokens(tokens, return_pooled=True)
+    # Encode each text segment
+    all_encoded = []
+    pooled_sum = 0
+    
+    for seg_text in texts_to_encode:
+        if seg_text.strip():
+            tokens = clip.tokenize(seg_text.strip())
+            encoded = clip.encode_from_tokens(tokens, return_pooled=True)
+            all_encoded.append(encoded[0])
+            pooled_sum += encoded[1]
+    
+    # Combine encoded segments
+    if len(all_encoded) > 1:
+        combined_cond = torch.cat(all_encoded, dim=1)
+    else:
+        combined_cond = all_encoded[0]
+    
+    result = (combined_cond, {"pooled_output": pooled_sum})
     
     # Cache the result
     clip.fcs_cond_cache[text] = result
