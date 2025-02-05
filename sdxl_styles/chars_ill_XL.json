@@ -288,6 +288,11 @@
 			"name": "coco",
 			"prompt": " crash_bandicoot_(series),coco_bandicoot,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
 			"negative_prompt": ""
+	},
+	{
+			"name": "ankha",
+			"prompt": " animal_crossing,ankha_(animal_crossing),masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
 	}
 		
 	]	
