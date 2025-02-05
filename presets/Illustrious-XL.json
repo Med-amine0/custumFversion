@@ -36,7 +36,7 @@
     "default_performance": "Speed",
     "default_prompt": "(anime style), futanari, black lips, smug smile, big penis, big testicals,looking at viewer, (see-through kimono)",
     "default_prompt_negative": "3d, (incorrect anatomy), (bad anatomy), (bad lips), (deformed face feachers), (incorrect digits),(two bodies:1.1)warped anatomy, deformed anatomy, weird anatomy, bad quality ,worst quality, worst detail, soft rendering, sketch, censor, simple background",
-    "default_styles": ["thickness"],
+    "default_styles": [],
     "default_aspect_ratio": "1024*1024",
     "default_overwrite_step": -1,
     "default_inpaint_engine_version": "None",
