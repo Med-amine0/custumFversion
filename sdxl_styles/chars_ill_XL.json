@@ -281,7 +281,12 @@
 	},
 	{
 			"name": "renamon",
-			"prompt": "digimon renamon,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"prompt": "digimon,renamon,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
+			"negative_prompt": ""
+	},
+	{
+			"name": "coco",
+			"prompt": " crash_bandicoot_(series),coco_bandicoot,masterpiece,(beautiful face:1.1), eyeliner, lipstick, full lips, big eyes, big breasts, {prompt}",
 			"negative_prompt": ""
 	}
 		
