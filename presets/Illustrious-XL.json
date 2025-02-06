@@ -34,7 +34,7 @@
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
-    "default_prompt": "7052517076137900479 ,(anime style), futanari, black lips, smug smile, big penis, big testicals,looking at viewer, (see-through kimono)",
+    "default_prompt": "677861530078473756 ,(anime style), futanari, black lips, smug smile, big penis, big testicals,looking at viewer, (see-through kimono)",
     "default_prompt_negative": "same pose, identical stance, mirrored pose, same expression, repetitive positions, duplicate appearance, repeated look, similar body angles, similar facial expression, symmetrical poses, same outfit, unvaried, 3d, (incorrect anatomy), (bad anatomy), (bad lips), (deformed face feachers), (incorrect digits),(two bodies:1.1)warped anatomy, deformed anatomy, weird anatomy, bad quality ,worst quality, worst detail, soft rendering, sketch, censor, simple background",
     "default_styles": [],
     "default_aspect_ratio": "1024*1024",
