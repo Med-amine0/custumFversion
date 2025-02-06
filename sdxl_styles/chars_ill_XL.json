@@ -1,7 +1,7 @@
 [
     {
 	        "name": "thickness",
-	        "prompt": "{prompt}, thick thighs, curvy, (nam:1.1), <lora:PulenKompot-Voluptuous:1>, <lora:Areolae-Size-slider:1>",
+	        "prompt": "thick thighs, curvy, (nam:1.1), <lora:PulenKompot-Voluptuous:1.5>, <lora:Areolae-Size-slider:1>",
 	        "negative_prompt": ""
     },
     {
