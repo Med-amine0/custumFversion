@@ -5,6 +5,11 @@
 	        "negative_prompt": ""
     },
     {
+	        "name": "jujunaught_style",
+	        "prompt": "jujunaught",
+	        "negative_prompt": ""
+    },
+    {
 	        "name": "hinata_hyuuga",
 	        "prompt": "hyuuga_hinata,naruto_(series)",
 	        "negative_prompt": ""
