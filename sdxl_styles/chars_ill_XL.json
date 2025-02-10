@@ -293,6 +293,11 @@
 			"name": "ankha",
 			"prompt": "animal_crossing,ankha_(animal_crossing)",
 			"negative_prompt": ""
+	},
+	{
+			"name": "soraka",
+			"prompt": "league_of_legends,soraka_(league_of_legends)",
+			"negative_prompt": ""
 	}
 		
 	]	
