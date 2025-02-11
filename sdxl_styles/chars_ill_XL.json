@@ -328,7 +328,7 @@
 			"name": "judy_hopps",
 			"prompt": "zootopia, judy_hopps",
 			"negative_prompt": ""
-	}
+	},
 	{
 			"name": "ankha",
 			"prompt": "animal_crossing,ankha_(animal_crossing)",
