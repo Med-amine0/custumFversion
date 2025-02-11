@@ -30,6 +30,11 @@
 	        "negative_prompt": ""
     },
     {
+	        "name": "uzumaki_kushina",
+	        "prompt": "naruto_(series),naruto_shippuuden,uzumaki_kushina",
+	        "negative_prompt": ""
+    },
+    {
 			"name": "samui",
 			"prompt": "samui_(naruto),naruto_(series)",
 			"negative_prompt": ""
