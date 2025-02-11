@@ -4,6 +4,38 @@ function updateInput(target) {
     target.dispatchEvent(e);
 }
 
+function handleParenthesesInput(event) {
+    let target = event.originalTarget || event.composedPath()[0];
+    if (!target.matches("*:is([id*='_prompt'], .prompt) textarea")) return;
+
+    // Handle opening parenthesis
+    if (event.key === '(') {
+        event.preventDefault();
+        
+        const selectionStart = target.selectionStart;
+        const selectionEnd = target.selectionEnd;
+        const text = target.value;
+        
+        // If there's selected text, wrap it in parentheses
+        if (selectionStart !== selectionEnd) {
+            const newText = text.slice(0, selectionStart) + 
+                          '(' + text.slice(selectionStart, selectionEnd) + ')' + 
+                          text.slice(selectionEnd);
+            target.value = newText;
+            target.selectionStart = selectionEnd + 2;
+            target.selectionEnd = selectionEnd + 2;
+        } else {
+            // If no text is selected, insert empty parentheses and place cursor inside
+            const newText = text.slice(0, selectionStart) + '()' + text.slice(selectionStart);
+            target.value = newText;
+            target.selectionStart = selectionStart + 1;
+            target.selectionEnd = selectionStart + 1;
+        }
+        
+        updateInput(target);
+    }
+}
+
 function keyupEditAttention(event) {
     let target = event.originalTarget || event.composedPath()[0];
     if (!target.matches("*:is([id*='_prompt'], .prompt) textarea")) return;
@@ -120,9 +152,10 @@ function keyupEditAttention(event) {
     target.selectionEnd = selectionEnd;
 
     updateInput(target);
-
 }
 
+// Add event listeners
 addEventListener('keydown', (event) => {
+    handleParenthesesInput(event);
     keyupEditAttention(event);
 });
