@@ -250,6 +250,31 @@
 			"negative_prompt": ""
 	},
 	{
+			"name": "chun-li",
+			"prompt": "street_fighter,street_fighter_zero_(series),chun-li",
+			"negative_prompt": ""
+	},
+	{
+			"name": "han_juri",
+			"prompt": "street_fighter,street_fighter_v,han_juri",
+			"negative_prompt": ""
+	},
+	{
+			"name": "poison",
+			"prompt": "final_fight,street_fighter,poison_(final_fight)",
+			"negative_prompt": ""
+	},
+	{
+			"name": "jessie",
+			"prompt": "pokemon_(anime),jessie_(pokemon)",
+			"negative_prompt": ""
+	},
+	{
+			"name": "james",
+			"prompt": "pokemon_(anime), james_(pokemon), otoko_no_ko",
+			"negative_prompt": ""
+	},
+	{
 			"name": "agatsuma_zenitsu",
 			"prompt": "agatsuma_zenitsu,kimetsu_no_yaiba, small_breasts, otoko_no_ko",
 			"negative_prompt": ""
@@ -299,6 +324,11 @@
 			"prompt": "crash_bandicoot_(series),coco_bandicoot",
 			"negative_prompt": ""
 	},
+	{
+			"name": "judy_hopps",
+			"prompt": "zootopia, judy_hopps",
+			"negative_prompt": ""
+	}
 	{
 			"name": "ankha",
 			"prompt": "animal_crossing,ankha_(animal_crossing)",
