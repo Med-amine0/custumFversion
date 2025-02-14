@@ -51,12 +51,22 @@
     },
     {
 	        "name": "temari",
-	        "prompt": "temari_(naruto),naruto_(series)",
+	        "prompt": "temari_(naruto),boruto:_naruto_next_generations",
 	        "negative_prompt": ""
     },
     {
 	        "name": "yamanaka_ino",
 	        "prompt": "yamanaka_ino,naruto_(series)",
+	        "negative_prompt": ""
+    },
+    {
+	        "name": "tenten",
+	        "prompt": "tenten_(naruto),naruto_(series),boruto:_naruto_next_generations",
+	        "negative_prompt": ""
+    },
+    {
+	        "name": "uzumaki_himawari",
+	        "prompt": "uzumaki_himawari, boruto:_naruto_next_generations",
 	        "negative_prompt": ""
     },
     {
@@ -302,6 +312,11 @@
 	{
 			"name": "uchiha_sasuke",
 			"prompt": "uchiha_sasuke,naruto_(series), small_breasts , otoko_no_ko",
+			"negative_prompt": ""
+	},
+	{
+			"name": "nara_shikamaru",
+			"prompt": "nara_shikamaru,naruto_(series), small_breasts , otoko_no_ko",
 			"negative_prompt": ""
 	},
 	{
