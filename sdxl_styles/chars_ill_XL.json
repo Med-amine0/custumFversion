@@ -10,6 +10,16 @@
 	        "negative_prompt": ""
     },
     {
+	        "name": "shexyo_style",
+	        "prompt": "shexyo",
+	        "negative_prompt": ""
+    },
+    {
+	        "name": "blackwhiplash",
+	        "prompt": "blackwhiplash",
+	        "negative_prompt": ""
+    },
+    {
 	        "name": "hinata_hyuuga",
 	        "prompt": "hyuuga_hinata,naruto_(series)",
 	        "negative_prompt": ""
@@ -120,6 +130,11 @@
 			"negative_prompt": ""
 	},
 	{
+			"name": "rebecca",
+			"prompt": "cyberpunk_(series),cyberpunk_edgerunners,rebecca_(cyberpunk)",
+			"negative_prompt": ""
+	},
+	{
 			"name": "uraraka_ochaco",
 			"prompt": "uraraka_ochaco,boku_no_hero_academia",
 			"negative_prompt": ""
@@ -137,6 +152,11 @@
 	{
 			"name": "bakugou_mitsuki",
 			"prompt": "bakugou_mitsuki,boku_no_hero_academia",
+			"negative_prompt": ""
+	},
+	{
+			"name": "yor_briar",
+			"prompt": "spy_x_family,yor_briarh",
 			"negative_prompt": ""
 	},
 	{
@@ -171,7 +191,7 @@
 	},
 	{
 			"name": "princess_zelda",
-			"prompt": "princess_zelda,the_legend_of_zelda",
+			"prompt": "princess_zelda,the_legend_of_zelda,the_legend_of_zelda:_tears_of_the_kingdom",
 			"negative_prompt": ""
 	},
 	{
@@ -322,6 +342,11 @@
 	{
 			"name": "uzumaki_boruto",
 			"prompt": "uzumaki_boruto,naruto_(series), small_breasts , otoko_no_ko",
+			"negative_prompt": ""
+	},
+	{
+			"name": "toushirou",
+			"prompt": "bleach,hitsugaya_toushirou, small_breasts , otoko_no_ko",
 			"negative_prompt": ""
 	},
 	{
