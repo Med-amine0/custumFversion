@@ -20,6 +20,11 @@
 	        "negative_prompt": ""
     },
     {
+	        "name": "shadman",
+	        "prompt": "shadman",
+	        "negative_prompt": ""
+    },
+    {
 	        "name": "hinata_hyuuga",
 	        "prompt": "hyuuga_hinata,naruto_(series)",
 	        "negative_prompt": ""
